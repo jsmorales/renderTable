@@ -3,6 +3,28 @@ Renderizador de tablas de datos para php-bootstrap-jsFramework
 
 Tiene como fin poder crear tablas de datos a partir de un array de datos cargado desde una fuente de datos.
 
+- [Inicialización de la Tabla](https://github.com/jsmorales/renderTable#inicialización-de-la-tabla)
+
+- [Parámetros](https://github.com/jsmorales/renderTable#parámetros)
+    - [arraydatos](https://github.com/jsmorales/renderTable#arraydatos)
+    - [arraycampos](https://github.com/jsmorales/renderTable#array_campos)
+        - [Tipos](https://github.com/jsmorales/renderTable#tipos-disponibles)
+            - [strlen](https://github.com/jsmorales/renderTable#strlen)
+            - [number_format](https://github.com/jsmorales/renderTable#number_format)
+            - [percent](https://github.com/jsmorales/renderTable#percent)
+   - [array_botones](https://github.com/jsmorales/renderTable#array_botones)
+        - [Tipos](https://github.com/jsmorales/renderTable#tipos-de-botón-disponibles)
+            - [editar](https://github.com/jsmorales/renderTable#editar)
+            - [eliminar](https://github.com/jsmorales/renderTable#eliminar)
+            - [descargar_1](https://github.com/jsmorales/renderTable#descargar_1)
+            - [ver_docs](https://github.com/jsmorales/renderTable#ver_docs)
+   - [array_opciones](https://github.com/jsmorales/renderTable#array_opciones)
+
+- [Métodos](https://github.com/jsmorales/renderTable#métodos)
+    - [render()](https://github.com/jsmorales/renderTable#render)
+    - [render_blank()](https://github.com/jsmorales/renderTable#render_blank)
+   
+
 # Inicialización de la Tabla
 
 En primer lugar se debe incluir la clase dentro del controlador:
@@ -91,7 +113,9 @@ $array_botones =[
 ```
 ## Tipos de Botón Disponibles
 Los tipo estan definidos por el framework:
+
 Para editar,eliminar **nombre** es el nombre del módulo definido para jquerycontrollerv2.
+
 Para editar,eliminar **permiso** es la variable definida de los permisos del framework.
 
 ###### editar
